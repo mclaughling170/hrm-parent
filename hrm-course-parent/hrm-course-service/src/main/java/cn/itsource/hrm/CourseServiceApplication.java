@@ -10,7 +10,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 /**
  * @Description TODO
  * @Author solargen
- * @Date 2019/12/24 14:51
+ * @Date 2019/12/25 14:47
  * @Version v1.0
  **/
 @SpringBootApplication
@@ -18,10 +18,10 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableTransactionManagement
 @EnableEurekaClient
 @EnableSwagger2 //开启swagger
-public class SystemServiceApplication {
+public class CourseServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SystemServiceApplication.class, args);
+        SpringApplication.run(CourseServiceApplication.class, args);
     }
 
 }

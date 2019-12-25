@@ -19,3 +19,6 @@ zuul:
     system:
       path: /system/**  #localhost:9527/services/system/......
       serviceId: SYSTEM-SERVICE
+    course:
+      path: /course/**
+      serviceId: COURSE-SERVICE
